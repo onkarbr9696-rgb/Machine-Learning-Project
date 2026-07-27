@@ -321,7 +321,7 @@ The final system aims to:
 
 ## 👩‍💻 Author
 
-**Your Name**
+**Your Name Bhalerao Onkar Rohidas **
 
 🎓 Machine Learning | Artificial Intelligence | Data Science
 
