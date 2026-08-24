@@ -1,0 +1,231 @@
+# 🛒 Super Store Sales Prediction Using KNN Regression
+
+A Machine Learning web application that predicts **Super Store product sales** using the **K-Nearest Neighbors (KNN) Regression** algorithm.
+
+## 📌 Project Overview
+
+This project is designed to predict product sales based on different product and outlet features. The Machine Learning model is developed using **Python** and **Scikit-learn** and deployed using **Flask**.
+
+The trained KNN Regression model is saved in `.pkl` format and used by the Flask application to generate real-time sales predictions through a web interface.
+
+---
+
+## 🎯 Objective
+
+The main objective of this project is to:
+
+* Predict Super Store sales using Machine Learning.
+* Implement the K-Nearest Neighbors Regression algorithm.
+* Perform data preprocessing and feature scaling.
+* Train and evaluate the regression model.
+* Save the trained model using Pickle.
+* Deploy the model using Flask.
+* Provide predictions through a simple web application.
+
+---
+
+## 🧠 Machine Learning Model
+
+This project uses **K-Nearest Neighbors (KNN) Regression**.
+
+KNN Regression predicts the sales value by finding the nearest and most similar data points in the dataset and using their values to estimate the output.
+
+---
+
+## 📊 Project Files
+
+```text
+super store sales prediction/
+│
+├── Super_store/
+│   └── Super_store/
+│
+├── anaconda_projects/
+│   └── db/
+│
+├── KNN Regression.ipynb
+├── KNN_reg_outlet_sales - KNN_reg_outlet_sales.csv
+├── Super_store.zip
+├── app.py
+├── bigmart_knn_model.pkl
+├── knn_model.pkl
+├── scaler.pkl
+└── README.md
+```
+
+---
+
+## 📂 File Description
+
+### `KNN Regression.ipynb`
+
+This Jupyter Notebook contains:
+
+* Dataset loading
+* Data preprocessing
+* Feature engineering
+* Data encoding
+* Feature scaling
+* KNN Regression model training
+* Model evaluation
+* Model saving
+
+### `KNN_reg_outlet_sales - KNN_reg_outlet_sales.csv`
+
+The dataset used for training and testing the Machine Learning model.
+
+### `app.py`
+
+The main Flask application file that:
+
+* Loads the trained model.
+* Receives user input.
+* Processes the input data.
+* Performs feature scaling.
+* Generates the sales prediction.
+* Displays the result on the web interface.
+
+### `knn_model.pkl`
+
+The saved trained **KNN Regression model**.
+
+### `bigmart_knn_model.pkl`
+
+An additional saved KNN model used for sales prediction.
+
+### `scaler.pkl`
+
+The saved feature scaling model used to transform the input data before prediction.
+
+---
+
+## 🔄 Project Workflow
+
+```text
+Dataset
+   ↓
+Data Cleaning
+   ↓
+Feature Engineering
+   ↓
+Data Preprocessing
+   ↓
+Feature Scaling
+   ↓
+Train-Test Split
+   ↓
+KNN Regression Model
+   ↓
+Model Evaluation
+   ↓
+Save Model (.pkl)
+   ↓
+Flask Web Application
+   ↓
+User Input
+   ↓
+Sales Prediction
+```
+
+---
+
+## 🛠️ Technologies Used
+
+* 🐍 Python
+* 🐼 Pandas
+* 🔢 NumPy
+* 🤖 Scikit-learn
+* 📈 K-Nearest Neighbors Regression
+* 🌐 Flask
+* 📓 Jupyter Notebook
+* 💾 Pickle
+* 📝 HTML
+* 🎨 CSS
+
+---
+
+## 🚀 How to Run the Project
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repository-url>
+```
+
+### 2. Open the project folder
+
+```bash
+cd "super store sales prediction"
+```
+
+### 3. Install required libraries
+
+```bash
+pip install pandas numpy scikit-learn flask
+```
+
+### 4. Run the Flask application
+
+```bash
+python app.py
+```
+
+### 5. Open the application
+
+After running the application, open the local address shown in the terminal, usually:
+
+```text
+http://127.0.0.1:5000
+```
+
+---
+
+## ✨ Key Features
+
+* 🤖 KNN Regression-based prediction
+* 📊 Super Store sales dataset
+* 🧹 Data preprocessing
+* 🔢 Feature scaling
+* 💾 Saved trained model
+* 🌐 Flask web application
+* ⚡ Real-time sales prediction
+* 🖥️ User-friendly interface
+
+---
+
+## 🎓 Learning Outcomes
+
+This project demonstrates:
+
+* Machine Learning Regression
+* KNN Algorithm
+* Data Preprocessing
+* Feature Scaling
+* Model Training
+* Model Evaluation
+* Model Serialization
+* Flask Web Development
+* Machine Learning Model Deployment
+
+---
+
+## 🚀 Future Improvements
+
+* Compare KNN with Random Forest and Decision Tree Regression.
+* Improve prediction accuracy.
+* Add more visualizations.
+* Improve the web application interface.
+* Add prediction history.
+* Deploy the application on a cloud platform.
+
+---
+
+## 👨‍💻 Author
+
+**Onkar Bhalerao**
+
+AI & Data Science Engineering Student
+
+---
+
+⭐ If you found this project useful, consider giving the repository a star!
